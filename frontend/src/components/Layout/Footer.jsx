@@ -8,11 +8,11 @@ const Footer = () => {
   const {isAuthorized} = useContext(Context)
   return (
     <footer className={isAuthorized ? "footerShow" : "footerHide"}>
-      <div>&copy; All Rights Reserved by Chandresh</div>
+      <div>&copy; All Rights Reserved by Rahul Vaishnav</div>
       <div>
         <Link to={"/"} target='_blank'><FaFacebookF/></Link>
         <Link to={"/"} target='_blank'><FaYoutube/></Link>
-        <Link to={"/https://www.linkedin.com/in/chandresh-parmar-894829215/"} target='_blank'><FaLinkedin/></Link>
+        <Link to={"/"} target='_blank'><FaLinkedin/></Link>
         <Link to={"/"} target='_blank'><RiInstagramFill/></Link>
         </div>  
     </footer>

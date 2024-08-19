@@ -31,6 +31,10 @@ h6 {
 p {
   font-size: 20px;
 }
+/* .logo{
+  width: 40px;
+  height: 40px;
+} */
 @media (max-width: 1520px) {
   h1 {
     font-size: 3.4rem;
@@ -1149,7 +1153,8 @@ p {
   }
 }
 nav {
-  background: #18191c;
+  /* background: #18191c; */
+  background: #d9534f;
   padding: 0 20px;
 }
 nav .container {
@@ -1160,8 +1165,8 @@ nav .container {
   justify-content: space-between;
 }
 nav .container .logo {
-  width: 120px;
-  height: 120px;
+  width: 80px;
+  height: 80px;
 }
 nav .container .logo img {
   width: 100%;

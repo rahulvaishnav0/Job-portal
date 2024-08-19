@@ -4,6 +4,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import toast from 'react-hot-toast';
 import {GiHamburgerMenu} from "react-icons/gi"
+// import "../../App.css";
 
 
 const Navbar = () => {
@@ -28,6 +29,7 @@ const Navbar = () => {
       <div className="container">
         <div className="logo">
           <img src="JobZee-logos__white.png" alt="logo" />
+          {/* <img src="JobZee.png" alt="logo" /> */}
           
         </div>
         <ul className={!show? "menu":"show-menu menu"}>
